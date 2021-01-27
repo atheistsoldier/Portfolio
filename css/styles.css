@@ -1,0 +1,188 @@
+body {
+  background-color: #eeecda;
+}
+#title {
+  
+  text-align: left;
+}
+.navbar {
+  padding: 0 2.5rem 4.5rem;
+   
+}
+.home{
+  position: fixed;
+}
+.nav-item {
+  padding: 0 18px 5px;
+  
+}
+.container-fluid {
+  padding: 2% 5%;
+}
+.firstcontainer {
+  
+  padding-left: 5%;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  background-image: linear-gradient(120deg, #e0c3fc 0, #8ec5fc 100%);
+}
+
+.bottom-container {
+  background-color: #b9bbdf;
+  padding: 30px;
+}
+.middle-container {
+  margin-bottom: 0;
+  
+  
+}
+h4 {
+  font-weight: normal;
+  color: #3895d3;
+  padding-bottom: 20px;
+  font-size: 200%;
+}
+
+body {
+  margin: 0px;
+
+  text-align: center;
+  font-family: cursive;
+  font: oblique;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  font-size: 1000%;
+  animation: forwards;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  color: #3895d3;
+}
+h2 {
+  font-size: 500%;
+  animation: forwards;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+  position: relative;
+  font-family: 'Oswald', sans-serif;;
+  color: #3895d3;
+}
+.Intro{
+  float: left;
+}
+.empty{
+  width: 20%;
+  height: 100px;
+  float: left;
+}
+
+.bcloud {
+  position: absolute;
+}
+.dp {
+  border-radius: 100%;
+  
+  width: 350px;
+}
+.info{
+  padding:90px;
+  color: #eaf6f6;
+
+}
+
+.profile {
+  
+  text-align: left;
+  padding-top: 10%;
+  padding-bottom: 12%;
+  
+}
+.red {
+  width: 20%;
+  margin-right: 40px;
+}
+a {
+  color: #11999e;
+  margin: 30px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+h3 {
+  color: #11999e;
+  font-size: 150%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  
+  line-height: 2;
+}
+hr {
+  margin-left: 47%;
+  margin-right: 47%;
+  border: 0;
+  border-top: 10px dotted;
+  color: #eaf6f6;
+}
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+  font-family: "Raleway", sans-serif;
+}
+.BUTTON_ZOT {
+  background-color: #3d94f6;
+  background-image: -webkit-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -moz-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -ms-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -o-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: linear-gradient(to bottom, #3d94f6, #1e62d0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_ZOT:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: linear-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.Copyright {
+  color: #eaf6f6;
+  font-size: 70%;
+  padding: 20px 0;
+}
+.College {
+  height: 300px;
+}
+.Education{
+  padding-top: 30px;
+}
+#contact {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  background-image: linear-gradient(120deg, #e0c3fc 0, #8ec5fc 100%);
+}
