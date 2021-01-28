@@ -78,6 +78,7 @@ h2 {
 }
 .Intro{
   float: left;
+  padding-bottom: 5%;
 }
 .empty{
   width: 20%;
@@ -210,7 +211,8 @@ hr {
 .poem{
   margin: 0;
 }
-@media (max-width:991px){
+
+@media (max-width:900px){
   #title{
       text-align: center;
   }
@@ -223,7 +225,10 @@ hr {
 
   }
   .dp{
-    margin-left: 0;
+    margin: 0;
+    width: 250px;
+    margin-top: 10%;
+   
   }
   
   h1{
