@@ -1,16 +1,24 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #eeecda;
+}
+p{
+  font-size: large;
+  font-weight: bolder;
 }
 #title {
   
   text-align: left;
 }
-.navbar {
-  padding: 0 2.5rem 4.5rem;
-   
+.nav-link{
+  margin: 0;
 }
 .home{
   position: fixed;
+  padding-left: 0;
+  margin-left: 0;
 }
 .nav-item {
   padding: 0 18px 5px;
@@ -43,7 +51,7 @@ h4 {
 }
 
 body {
-  margin: 0px;
+  
 
   text-align: center;
   font-family: cursive;
@@ -82,6 +90,8 @@ h2 {
 }
 .dp {
   border-radius: 100%;
+  margin-left: 15%;
+  position: relative;
   
   width: 350px;
 }
@@ -92,15 +102,18 @@ h2 {
 }
 
 .profile {
+  position: relative;
   
   text-align: left;
   padding-top: 10%;
   padding-bottom: 12%;
+  padding-left: 10%;
   
 }
 .red {
   width: 20%;
   margin-right: 40px;
+  padding-bottom: 8%;
 }
 a {
   color: #11999e;
@@ -112,7 +125,7 @@ a:hover {
 }
 h3 {
   color: #11999e;
-  font-size: 150%;
+  font-size: 200%;
 }
 .skill-row {
   width: 50%;
@@ -196,4 +209,41 @@ hr {
 
 .poem{
   margin: 0;
+}
+@media (max-width:991px){
+  #title{
+      text-align: center;
+  }
+  .profile{
+      position: static;
+      transform: none;
+      width: 100%;
+      text-align: center;
+      padding-right: 10%;
+
+  }
+  .dp{
+    margin-left: 0;
+  }
+  
+  h1{
+    
+    font-size: 400%;
+  }
+  h2{
+    font-size: 300%;
+  }
+  p{
+    font-size: 140%;
+  }
+  
+  p{
+    font-size: medium;
+  }
+  .Intro{
+    float: none;
+  }
+  .red{
+    width: 35%;
+  }
 }
